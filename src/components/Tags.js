@@ -10,7 +10,7 @@ const Tags = () => {
     
 
   return (
-    <Stack direction="row" spacing={1}>
+    <Stack direction="row" spacing={1} mb={2}>
     <Chip label="Extra Soft" onClick={(e)=>handleClick(e)}  />
     <Chip label="Soft"  onClick={(e)=>handleClick(e)}/>
     <Chip label="Medium" onClick={(e)=>handleClick(e)}/>
